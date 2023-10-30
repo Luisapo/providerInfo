@@ -1,0 +1,107 @@
+body{
+    background-image: url("../images/backgroundeProviderData.png");
+    background-size: cover;
+    object-fit: fill;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar{
+    align-self: stretch;
+    padding-left: 10px;
+}
+
+#provider-table-Data{
+    margin-top: 20px;
+    width: 80vw;
+    
+}
+
+thead{
+    border: 1px;
+}
+
+th {
+    display: table-cell;
+}
+
+button {
+    box-shadow:inset 0px 1px 0px 0px #ffffff;	
+	background-color:transparent;
+	border-radius:6px;
+	border:1px solid black;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:32px;
+	font-weight:bold;
+	padding:20px 40px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+
+.checkbox-list{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-top: 17px;    
+}
+
+input[type="checkbox"]{
+    margin-right: 10px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #333;
+    border-radius: 4px;
+    background-color: #fff;
+    margin-right: 5px;
+}
+
+
+input[type="checkbox"]:checked {
+    background-color: #007BFF;
+    border: 2px solid #007BFF;
+    color: #fff;
+  }
+
+
+.modal {    
+    background-color: tomato;
+    height: 80vh;
+    width: 30vw;
+    margin-top: 5%;
+    margin-left: 30%;
+    border: 4px solid;
+    
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropdown-button {
+    display: table-cell;
+    border: 4px solid;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Roboto, sans-serif';
+    font-size: 1.5em;
+    font-weight: bolder;
+    background-color: #F9B572;    
+
+    /* Adjust the width and height as needed to match other headers */
+    width: 150px;
+    height: 50px;
+}
+
