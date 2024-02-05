@@ -1,201 +1,60 @@
-/* Creating and styling the table and table rows */
-
 document.addEventListener('DOMContentLoaded', () => {
     fetch("./providerData.json")
         .then(response => response.json())
         .then(data => {
-            const providerTableData = document.getElementById('provider-table-Data');            
-            const thead = document.createElement('thead'); // Create the table header
-            const headerRow = document.createElement('tr');            
+            const providerTableData = document.createElement('table');
+            providerTableData.id = 'provider-table-Data';
             
-            // Define the headers
-            const headers = {
-                "Name": "Name",
-                "NPI": "NPI",
-                "Facility": "Facility",
-                "Taxonomy and Specialty": "Taxonomy and Specialty",
-                "License #": "License #"
-            };
-            for (const key in headers) {
+            // Create table header
+            const thead = document.createElement('thead');
+            thead.classList.add("tableHeader");
+            const headerRow = document.createElement('tr');
+            
+            Object.keys(data[0]).forEach((header, index) => {
                 const headerCell = document.createElement('th');
-                headerCell.textContent = headers[key];
+                headerCell.textContent = header;
+                
+                
             
-                if (headerCell.textContent === 'Name' || headerCell.textContent === 'Facility') {
-                    const dropdownContainer = document.createElement('div'); // Create a container for the custom dropdown
-                    
-                    // Create a button to open the modal
-                    const dropdownButton = document.createElement('button');
-                    dropdownButton.textContent = headerCell.textContent;
-                    dropdownContainer.className = 'dropdown-button';
+                // if (index === 0) {
+                //     // Add a button to the first header
+                //     const filterButton = document.createElement('button');
+                //     filterButton.textContent = 'Name';
+                //     filterButton.addEventListener('click', () => {
+                //         // Do this later, add the handle button click for the first header
+
+                //     });
+                //     headerCell.appendChild(filterButton);
+                // }
             
-                    // Apply the same styling as other headers
-                    dropdownContainer.style.border = "4px solid";
-                    dropdownContainer.style.textAlign = "center";
-                    dropdownContainer.style.padding = '30px 150px';
-                    dropdownContainer.style.fontFamily = 'Roboto, sans-serif';
-                    dropdownContainer.style.fontSize = '1.5em';
-                    dropdownContainer.style.fontWeight = 'bolder';
-                    dropdownContainer.style.backgroundColor = '#F9B572';
+                headerRow.appendChild(headerCell);
+            });
             
-                    // Create a modal container for the checkboxes
-                    const modal = document.createElement('div');
-                    modal.className = 'modal';                                
-                    
-                    
-                    // Create a list to hold the checkboxes
-                    const checkboxList = document.createElement('ul');
-                    checkboxList.className = 'checkbox-list';
-                    
-                    checkboxList.style.listStyleType= 'none';                    
-                    
-                    
-                    if(headerCell.textContent === 'Name') {
-                        providers.forEach(provider => {
-                            const checkboxItem = document.createElement('li');
-                            const checkbox = document.createElement('input');
-                            checkbox.type = 'checkbox';
-                            checkbox.value = provider;
-                            checkbox.name = headerCell.textContent;
-                            checkbox.id = `${headerCell.textContent}-${provider}`;
-                            const label = document.createElement('label');
-                            label.textContent = provider;
-                            label.setAttribute('for', `${headerCell.textContent}-${provider}`);
-                            checkboxItem.appendChild(checkbox);
-                            checkboxItem.appendChild(label);
-                            checkboxList.appendChild(checkboxItem);
-                        });
-                    } else if(headerCell.textContent === 'Facility'){
-                        clinics.forEach(clinic => {
-                            const checkboxItem = document.createElement('li');
-                            const checkbox = document.createElement('input');
-                            checkbox.type = 'checkbox';
-                            checkbox.value = clinic;
-                            checkbox.name = headerCell.textContent;
-                            checkbox.id = `${headerCell.textContent}-${clinic}`;
-                            const label = document.createElement('label');
-                            label.textContent = clinic;
-                            label.setAttribute('for', `${headerCell.textContent}-${clinic}`);
-                            checkboxItem.appendChild(checkbox);
-                            checkboxItem.appendChild(label);
-                            checkboxList.appendChild(checkboxItem);
-                    });
-
-                    }
-
-                    modal.appendChild(checkboxList);
-            
-                    modal.style.display = 'none'; // Initially hide the modal
-
-                    dropdownButton.addEventListener('click', function () {
-                        modal.style.display = 'block';                        
-                        const checkboxes = document.querySelectorAll('input[type="checkbox"]');
-                        checkboxes.forEach(checkbox => {
-                            checkbox.addEventListener('change', filterTable);
-                        });
-
-                        // Define the filterTable function
-                        function filterTable() {
-                            // Get the selected options (checkboxes)
-                            const selectedOptions = Array.from(checkboxes)
-                                .filter(checkbox => checkbox.checked)
-                                .map(checkbox => checkbox.value);
-                        
-                            // Get all table rows
-                            const rows = document.querySelectorAll('table tr');
-                        
-                            // If no checkboxes are selected, show all rows
-                            if (selectedOptions.length === 0) {
-                                rows.forEach(row => {
-                                    row.style.display = 'table-row';
-                                });
-                            } else {
-                                // Iterate through the rows and hide/show based on selected options
-                                rows.forEach(row => {
-                                    const rowData = row.textContent.toLowerCase();
-                                    if (selectedOptions.some(option => rowData.includes(option.toLowerCase()))) {
-                                        row.style.display = 'table-row'; // Show the row
-                                    } else {
-                                        row.style.display = 'none'; // Hide the row
-                                    }
-                                });
-                            }
-                        }
-                        
-
-                        // Add a click event listener to the document body
-                        document.body.addEventListener('click', closeModalOnClickOutside);
-
-                        // Prevent the click event from propagating to the body
-                        event.stopPropagation();
-                    });
-
-                    // Function to close the modal when clicked outside
-                    function closeModalOnClickOutside(event) {
-                        if (event.target !== modal && !modal.contains(event.target)) {
-                            modal.style.display = 'none';
-                            document.body.removeEventListener('click', closeModalOnClickOutside);
-                        }
-                    }
-
-                    const closeBtn = document.createElement('span');
-                    closeBtn.textContent = ' 🆇 Close';
-                    closeBtn.className = 'close';
-                    closeBtn.style.fontSize = 'x-larger';
-                    closeBtn.style.textAlign = 'right';
-                    closeBtn.style.textAlign = 'top';
-                    closeBtn.style.color = 'white';
-                    
-
-                    closeBtn.addEventListener('click', function () {
-                        modal.style.display = 'none';
-                    });
-
-                    modal.appendChild(closeBtn);
-                    modal.style.display = 'none';
-                    
-                    dropdownContainer.appendChild(dropdownButton);
-                    dropdownContainer.appendChild(modal);
-
-                    headerRow.appendChild(dropdownContainer); // Append the custom dropdown container to the header row
-                } else {
-                    headerCell.style.border = "4px solid";
-                    headerCell.style.textAlign = "center";
-                    headerCell.style.padding = '30px';
-                    headerCell.style.fontFamily = 'Roboto, sans-serif';
-                    headerCell.style.fontSize = '1.5em';
-                    headerCell.style.fontWeight = 'bolder';
-                    headerCell.style.backgroundColor = '#F9B572';
-                    headerRow.appendChild(headerCell);
-                }
-            }
-            
-            
-            
-
             thead.appendChild(headerRow);
             providerTableData.appendChild(thead);
+            
 
+            // Create table body
             const tbody = document.createElement('tbody');
 
-            data.forEach(rowData => {                       // format table 
+            data.forEach(rowData => {
                 const row = document.createElement('tr');
 
-                for (const key in headers) {
+                Object.values(rowData).forEach(value => {
                     const cell = document.createElement('td');
-                    cell.textContent = rowData[key] || '';
-                    cell.style.border = "2px solid";
-                    cell.style.padding = "10px";                    
+                    cell.textContent = value || '';
                     row.appendChild(cell);
-                }
+                });
 
                 tbody.appendChild(row);
-                
             });
 
             providerTableData.appendChild(tbody);
 
-            const rows = document.querySelectorAll('tr');
+            // Append the table to the body
+            document.body.appendChild(providerTableData);
 
+            const rows = document.querySelectorAll('tr');
 
             rows.forEach(row => {                               // Change the row color depending on address
                 const cells = row.querySelectorAll('td');
@@ -262,31 +121,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             });
 
+            
         });
-
 });
-
-function filterTable() {
-    // Get the selected options (checkboxes)
-    const selectedOptions = Array.from(checkboxes)
-        .filter(checkbox => checkbox.checked)
-        .map(checkbox => checkbox.value);
-
-    // Get all table rows
-    const rows = document.querySelectorAll('table tr');
-
-    // Iterate through the rows and hide/show based on selected options
-    rows.forEach(row => {
-        const rowData = row.textContent.toLowerCase();
-        if (selectedOptions.every(option => rowData.includes(option.toLowerCase()))) {
-            row.style.display = 'table-row'; // Show the row
-        } else {
-            row.style.display = 'none'; // Hide the row
-        }
-    });
-}
-
-
 
 const providers = [    
     'Clinica La Familia',
@@ -340,4 +177,3 @@ const providers = [
         'El Mirage',
         'Laveen'
     ]
-

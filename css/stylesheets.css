@@ -1,5 +1,5 @@
 body{
-    background-image: url("../images/christmasBackground.svg");
+    background-color: #FFE4C9;
     background-size: cover;
     object-fit: fill;
     display: flex;
@@ -13,18 +13,14 @@ body{
     padding-left: 10px;
 }
 
-#provider-table-Data{
-    margin-top: 20px;
-    width: 80vw;
-    
+#provider-table-Data{    
+    margin-top: 20px;    
 }
 
-thead{
-    border: 1px;
-}
-
-th {
-    display: table-cell;
+.tableHeader{
+    background-color: rgb(223, 120, 16);
+    text-align: center;
+    font-size: 1.7em;
 }
 
 button {
@@ -73,13 +69,14 @@ input[type="checkbox"]:checked {
 
 
 .modal {    
-    background-color: tomato;
-    height: 80vh;
-    width: 30vw;
-    margin-top: 5%;
-    margin-left: 30%;
-    border: 4px solid;
-    
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);    
 }
 
 .close {
@@ -105,3 +102,26 @@ input[type="checkbox"]:checked {
     height: 50px;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    th, td {
+        padding: 5px;
+    }
+
+    .dropdown-button {
+        padding: 10px;
+    }
+
+    .modal {
+        padding: 10px;
+    }
+}
