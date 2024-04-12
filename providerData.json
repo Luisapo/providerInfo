@@ -2,281 +2,211 @@
     {
         "Name":"Clinica La Familia",
         "NPI":1780668921,
-        "Facility":null,
-        "Taxonomy and Specialty":"193200000X MULTI-SPECIALTY GROUP\n",
-        "License #":null
+        "Location":""
     },
     {
-        "Name":"Aaron J Jensen",
+        "Name":"Aaron Jensen",
         "NPI":1306099155,
-        "Facility":"CLF West/Glendale - 7734 N 59th Ave Glendale AZ 85301",
-        "Taxonomy and Specialty":"363A00000X - Physician Assistant",
-        "License #":"5356"
+        "Location":"CLF West\/Glendale - 7734 N 59th Ave Glendale AZ 85301"
     },
     {
         "Name":"Alex Guzman Garcia",
         "NPI":1558635045,
-        "Facility":"CLF Mesa - 616 E Southern Ave #103,Mesa AZ 85204",
-        "Taxonomy and Specialty":"363AM0700X - Physician Assistant Medical",
-        "License #":"5106"
+        "Location":"CLF Mesa - 616 E Southern Ave #103,Mesa AZ 85204"
     },
     {
-        "Name":"Alma Navarro",
+        "Name":"Alma Navarro ",
         "NPI":1104298215,
-        "Facility":"CLF West/Glendale - 7734 N 59th Ave Glendale AZ 85301",
-        "Taxonomy and Specialty":"175F00000X - Naturopath",
-        "License #":"14-1431"
+        "Location":"CLF West\/Glendale - 7734 N 59th Ave Glendale AZ 85301"
     },
     {
         "Name":"Amanda Rascon",
         "NPI":1063157253,
-        "Facility":"CLF Laveen - 4250 W Baseline Rd Phoenix, AZ 85041",
-        "Taxonomy and Specialty":"363LF0000X - Nurse Practitioner",
-        "License #":"274285"
+        "Location":"CLF Laveen - 4250 W Baseline Rd Phoenix, AZ 85041"
     },
     {
         "Name":"Andrew C. White",
         "NPI":1043791247,
-        "Facility":"CLF Mesa - 616 E Southern Ave #103,Mesa AZ 85204",
-        "Taxonomy and Specialty":"363A00000X - Physician Assistant",
-        "License #":"7157"
+        "Location":"CLF Mesa - 616 E Southern Ave #103,Mesa AZ 85204"
     },
     {
         "Name":"Blair Ball",
         "NPI":1891297776,
-        "Facility":"CLF El Mirage - 15235 N Dysart Rd El Mirage AZ 85335",
-        "Taxonomy and Specialty":"363LF0000X - Nurse Practitioner Family",
-        "License #":"AP11340"
+        "Location":"CLF Laveen - 4250 W Baseline Rd Phoenix, AZ 85041"
     },
     {
-        "Name":"Carlomagno Calderon Briones",
+        "Name":"Carlomagno C Briones",
         "NPI":1487854436,
-        "Facility":"CLF West/Glendale - 7734 N 59th Ave Glendale AZ 85301",
-        "Taxonomy and Specialty":"208D00000X - General Practice",
-        "License #":"61622"
+        "Location":"CLF West\/Glendale - 7734 N 59th Ave Glendale AZ 85301"
     },
     {
-        "Name":"Carmen M. Rivera",
+        "Name":"Carmen Maria Rivera",
         "NPI":1053578195,
-        "Facility":"CLF West/Glendale - 7734 N 59th Ave Glendale AZ 85301",
-        "Taxonomy and Specialty":"208000000X - Pediatrics",
-        "License #":"51216"
+        "Location":"CLF West\/Glendale - 7734 N 59th Ave Glendale AZ 85301"
     },
     {
-        "Name":"Celina Ruiz Escamilla",
+        "Name":"Celina Ruiz Escamilla ",
         "NPI":1891246187,
-        "Facility":"CLF North - 13402 N 32nd St Phoenix AZ 85032",
-        "Taxonomy and Specialty":"363LF0000X - Nurse Practitioner Family",
-        "License #":"AP9840"
+        "Location":"CLF North - 13402 N 32nd St Phoenix AZ 85032"
     },
     {
-        "Name":"Christine C Briones",
+        "Name":"Christine Briones",
         "NPI":1447275292,
-        "Facility":"CLF El Mirage - 15235 N Dysart Rd El Mirage AZ 85335",
-        "Taxonomy and Specialty":"208D00000X - General Practice",
-        "License #":"49886"
+        "Location":"CLF Laveen - 4250 W Baseline Rd Phoenix, AZ 85041"
     },
     {
-        "Name":"Claudia Ivone Romo",
+        "Name":"Claudia Romo",
         "NPI":1487196002,
-        "Facility":"CLF Downtown - 1533 E Willetta St Phoenix AZ 85006",
-        "Taxonomy and Specialty":"363LF0000X - Nurse Practitioner Family",
-        "License #":"AP9645"
+        "Location":"CLF Downtown - 1533 E Willetta St Phoenix AZ 85006"
     },
     {
-        "Name":"Drisde Isabel Cruz Martinez",
+        "Name":"Drisde Cruz Martinez",
         "NPI":1710920426,
-        "Facility":"CLF El Mirage - 15235 N Dysart Rd El Mirage AZ 85335",
-        "Taxonomy and Specialty":"208000000X - Pediatrics",
-        "License #":"65178"
+        "Location":"CLF Laveen - 4250 W Baseline Rd Phoenix, AZ 85041"
     },
     {
         "Name":"Elizabeth Lopez-Murray",
         "NPI":1255494431,
-        "Facility":"CLF West/Glendale - 7734 N 59th Ave Glendale AZ 85301",
-        "Taxonomy and Specialty":"363AM0700X - Physician Assistant Medical",
-        "License #":"3277"
+        "Location":"CLF West\/Glendale - 7734 N 59th Ave Glendale AZ 85301"
     },
     {
-        "Name":"Erick G. Gonzalez",
+        "Name":"Eric Gonzalez",
         "NPI":1033422571,
-        "Facility":"CLF Mesa - 616 E Southern Ave #103,Mesa AZ 85204",
-        "Taxonomy and Specialty":"208000000X - Pediatrics",
-        "License #":"51791"
+        "Location":"CLF Mesa - 616 E Southern Ave #103,Mesa AZ 85204"
     },
     {
         "Name":"Erick Torres",
         "NPI":1104457621,
-        "Facility":"CLF West/Glendale - 7734 N 59th Ave Glendale AZ 85301",
-        "Taxonomy and Specialty":"363LF0000X - Nurse Practitioner Family",
-        "License #":"236688"
+        "Location":"CLF West\/Glendale - 7734 N 59th Ave Glendale AZ 85301"
     },
     {
-        "Name":"Fernando Galaviz",
+        "Name":"Fernando Galaviz ",
         "NPI":1003532847,
-        "Facility":"CLF North - 13402 N 32nd St Phoenix AZ 85032",
-        "Taxonomy and Specialty":"363AM0700X - Physician Assistant Medical",
-        "License #":"9402"
+        "Location":"CLF North - 13402 N 32nd St Phoenix AZ 85032"
     },
     {
         "Name":"Flor N Arellano",
         "NPI":1952025470,
-        "Facility":"CLF West/Glendale - 7734 N 59th Ave Glendale AZ 85301",
-        "Taxonomy and Specialty":"363LF0000X - Nurse Practitioner - Family",
-        "License #":"281473"
+        "Location":"CLF West\/Glendale - 7734 N 59th Ave Glendale AZ 85301"
     },
     {
         "Name":"Francis Rahul Luciano",
         "NPI":1689058992,
-        "Facility":"CLF Tempe - 1315 W Southern Ave Tempe, AZ 85282",
-        "Taxonomy and Specialty":"363AM0700X - Physician Assistant Medical",
-        "License #":"5965"
+        "Location":"CLF Tempe - 1315 W Southern Ave Tempe, AZ 85282"
     },
     {
-        "Name":"Freddy L Montenegro",
+        "Name":"Freddy Montenegro",
         "NPI":1306141213,
-        "Facility":"CLF Mesa - 616 E Southern Ave #103,Mesa AZ 85204",
-        "Taxonomy and Specialty":"363LF0000X - Nurse Practitioner Family",
-        "License #":"AP5467"
+        "Location":"CLF Mesa - 616 E Southern Ave #103,Mesa AZ 85204"
     },
     {
-        "Name":"Gloria A. Estrada",
+        "Name":"Gloria Estrada",
         "NPI":1932171915,
-        "Facility":"CLF North - 13402 N 32nd St Phoenix AZ 85032",
-        "Taxonomy and Specialty":"207R00000X - Internal Medicine",
-        "License #":"32069"
+        "Location":"CLF North - 13402 N 32nd St Phoenix AZ 85032"
     },
     {
         "Name":"Grace Stracuzzi",
         "NPI":1164093530,
-        "Facility":"CLF West/Glendale - 7734 N 59th Ave Glendale AZ 85301",
-        "Taxonomy and Specialty":"363LP0200X - Nurse Practitioner Pediatrics",
-        "License #":"271374"
+        "Location":"CLF West\/Glendale - 7734 N 59th Ave Glendale AZ 85301"
     },
     {
-        "Name":"Haidee Chavez Waymire",
+        "Name":"Haidee C Waymire",
         "NPI":1821641184,
-        "Facility":"CLF West/Glendale - 7734 N 59th Ave Glendale AZ 85301",
-        "Taxonomy and Specialty":"363LF0000X - Nurse Practitioner Family",
-        "License #":"227361"
+        "Location":"CLF West\/Glendale - 7734 N 59th Ave Glendale AZ 85301"
     },
     {
-        "Name":"J. Guadalupe Gallo Padilla",
+        "Name":"J Guadalupe Gallo Padilla",
         "NPI":1447680947,
-        "Facility":"CLF Downtown - 1533 E Willetta St Phoenix AZ 85006",
-        "Taxonomy and Specialty":"363AM0700X - Physician Assistant Medical",
-        "License #":"5490"
+        "Location":"CLF Downtown - 1533 E Willetta St Phoenix AZ 85006"
     },
     {
-        "Name":"Javier G Padilla",
+        "Name":"Javier G. Padilla",
         "NPI":1083383186,
-        "Facility":"CLF Downtown - 1533 E Willetta St Phoenix AZ 85006",
-        "Taxonomy and Specialty":"363A00000X - Physician Assistant",
-        "License #":"9114"
+        "Location":"CLF Downtown - 1533 E Willetta St Phoenix AZ 85006"
     },
     {
-        "Name":"Jennyfer Willford",
+        "Name":"Jennyfer Willford ",
         "NPI":1407337785,
-        "Facility":"CLF Casa Grande - 301 E Cottonwood Ln Casa Grande AZ 85122",
-        "Taxonomy and Specialty":"363LF0000X - Nurse Practitioner Family",
-        "License #":"AP11673"
+        "Location":"CLF Casa Grande - 301 E Cottonwood Ln Casa Grande AZ 85122"
     },
     {
         "Name":"Jessica Cuevas",
         "NPI":1700539384,
-        "Facility":"CLF Laveen - 4250 W Baseline Rd Phoenix, AZ 85041",
-        "Taxonomy and Specialty":"207QA0505X - Family Medicine Adult Medicine",
-        "License #":"269844"
+        "Location":"CLF Laveen - 4250 W Baseline Rd Phoenix, AZ 85041"
     },
     {
-        "Name":"Julia Calderon",
+        "Name":"Julia Calderon ",
         "NPI":1780174904,
-        "Facility":"CLF North - 13402 N 32nd St Phoenix AZ 85032",
-        "Taxonomy and Specialty":"363LF0000X - Nurse Practitioner Family",
-        "License #":"AP11204"
+        "Location":"CLF North - 13402 N 32nd St Phoenix AZ 85032"
     },
     {
         "Name":"Julia Nieto",
         "NPI":1669920732,
-        "Facility":"CLF Tempe - 1315 W Southern Ave Tempe, AZ 85282",
-        "Taxonomy and Specialty":"363A00000X - Physician Assistant",
-        "License #":"6451"
+        "Location":"CLF Tempe - 1315 W Southern Ave Tempe, AZ 85282"
     },
     {
         "Name":"Maria Del Carmen Castillo",
         "NPI":1922753615,
-        "Facility":"CLF Mesa - 616 E Southern Ave #103,Mesa AZ 85204",
-        "Taxonomy and Specialty":"363LF0000X - Nurse Practitioner",
-        "License #":"273453"
+        "Location":"CLF Mesa - 616 E Southern Ave #103,Mesa AZ 85204"
     },
     {
-        "Name":"Nina Alexandria Celaya",
+        "Name":"Nina A Celaya ",
         "NPI":1568923456,
-        "Facility":"CLF Laveen - 4250 W Baseline Rd Phoenix, AZ 85041",
-        "Taxonomy and Specialty":"207R00000X - Internal Medicine",
-        "License #":"66788"
+        "Location":"CLF Laveen - 4250 W Baseline Rd Phoenix, AZ 85041"
+    },
+    {
+        "Name":"Paola F Beach",
+        "NPI":1336861194,
+        "Location":"CLF Laveen - 4250 W Baseline Rd Phoenix, AZ 85041"
     },
     {
         "Name":"Ricardo G. Celaya",
         "NPI":1861476095,
-        "Facility":"CLF West/Glendale - 7734 N 59th Ave Glendale AZ 85301",
-        "Taxonomy and Specialty":"207R00000X - Internal Medicine",
-        "License #":"29615"
+        "Location":"CLF North - 13402 N 32nd St Phoenix AZ 85032"
     },
     {
         "Name":"Ruby E Fernandez",
         "NPI":1346965381,
-        "Facility":"CLF West/Glendale - 7734 N 59th Ave Glendale AZ 85301",
-        "Taxonomy and Specialty":"363LF0000X - Nurse Practitioner - Family",
-        "License #":"281780"
+        "Location":"CLF West\/Glendale - 7734 N 59th Ave Glendale AZ 85301"
     },
     {
-        "Name":"Russell Patrick Jackson",
+        "Name":"Russell Jackson",
         "NPI":1699322578,
-        "Facility":"CLF Casa Grande - 301 E Cottonwood Ln Casa Grande AZ 85122",
-        "Taxonomy and Specialty":"363AM0700X - Physician Assistant Medical",
-        "License #":"8654"
+        "Location":"CLF Casa Grande - 301 E Cottonwood Ln Casa Grande AZ 85122"
     },
     {
-        "Name":"Sam F. Shumway",
+        "Name":"Sam F Shumway",
         "NPI":1134468267,
-        "Facility":"CLF West/Glendale - 7734 N 59th Ave Glendale AZ 85301",
-        "Taxonomy and Specialty":"363A00000X - Physician Assistant",
-        "License #":"5284"
+        "Location":"CLF West\/Glendale - 7734 N 59th Ave Glendale AZ 85301"
     },
     {
-        "Name":"Sandy Pauline Morales",
+        "Name":"Sandy Morales ",
         "NPI":1508377789,
-        "Facility":"CLF Mesa - 616 E Southern Ave #103,Mesa AZ 85204",
-        "Taxonomy and Specialty":"363AM0700X - Physician Assistant Medical",
-        "License #":"6917"
+        "Location":"CLF Mesa - 616 E Southern Ave #103,Mesa AZ 85204"
     },
     {
-        "Name":"Seth Evert Gillespie",
+        "Name":"Seth Gillespie",
         "NPI":1457723538,
-        "Facility":"CLF Downtown - 1533 E Willetta St Phoenix AZ 85006",
-        "Taxonomy and Specialty":"363AM0700X - Physician Assistant Medical",
-        "License #":"6254"
+        "Location":"CLF Downtown - 1533 E Willetta St Phoenix AZ 85006"
+    },
+    {
+        "Name":"Veronica Cristina Diaz Pulido",
+        "NPI":1588438469,
+        "Location":"CLF Laveen - 4250 W Baseline Rd Phoenix, AZ 85041"
     },
     {
         "Name":"Walter Rios-Corujo",
         "NPI":1801902143,
-        "Facility":"CLF Laveen - 4250 W Baseline Rd Phoenix, AZ 85041",
-        "Taxonomy and Specialty":"208000000X - Pediatrics",
-        "License #":"65179"
+        "Location":"CLF Laveen - 4250 W Baseline Rd Phoenix, AZ 85041"
     },
     {
         "Name":"Xochitl Landeros",
         "NPI":1639649767,
-        "Facility":"CLF West/Glendale - 7734 N 59th Ave Glendale AZ 85301",
-        "Taxonomy and Specialty":"363LF0000X - Nurse Practitioner Family",
-        "License #":"223924"
+        "Location":"CLF West\/Glendale - 7734 N 59th Ave Glendale AZ 85301"
     },
     {
         "Name":"Yesenia E. Ochoa",
         "NPI":1962981787,
-        "Facility":"CLF West/Glendale - 7734 N 59th Ave Glendale AZ 85301",
-        "Taxonomy and Specialty":"363LF0000X - Nurse Practitioner Family",
-        "License #":"266200"
+        "Location":"CLF West\/Glendale - 7734 N 59th Ave Glendale AZ 85301"
     }
 ]
