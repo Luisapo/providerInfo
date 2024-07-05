@@ -1,8 +1,8 @@
 [
     {
-        "Name":"Clinica La Familia",
+        "Name":"Clinica La Familia, PC",
         "NPI":1780668921,
-        "Location":""
+        "Location":null
     },
     {
         "Name":"Aaron Jensen",
@@ -45,11 +45,6 @@
         "Location":"CLF West\/Glendale - 7734 N 59th Ave Glendale AZ 85301"
     },
     {
-        "Name":"Celina Ruiz Escamilla ",
-        "NPI":1891246187,
-        "Location":"CLF North - 13402 N 32nd St Phoenix AZ 85032"
-    },
-    {
         "Name":"Christine Briones",
         "NPI":1447275292,
         "Location":"CLF El Mirage - 15235 N Dysart Rd Ste 103, El Mirage, AZ 85335"
@@ -58,6 +53,11 @@
         "Name":"Claudia Romo",
         "NPI":1487196002,
         "Location":"CLF Downtown - 1533 E Willetta St Phoenix AZ 85006"
+    },
+    {
+        "Name":"David Rios",
+        "NPI":1033965876,
+        "Location":"CLF Laveen - 4250 W Baseline Rd Phoenix, AZ 85041"
     },
     {
         "Name":"Drisde Cruz Martinez",
@@ -72,6 +72,11 @@
     {
         "Name":"Eric Gonzalez",
         "NPI":1033422571,
+        "Location":"CLF Mesa - 616 E Southern Ave #103,Mesa AZ 85204"
+    },
+    {
+        "Name":"Erica Carreon ",
+        "NPI":1902682248,
         "Location":"CLF Mesa - 616 E Southern Ave #103,Mesa AZ 85204"
     },
     {
@@ -165,6 +170,11 @@
         "Location":"CLF North - 13402 N 32nd St Phoenix AZ 85032"
     },
     {
+        "Name":"Ricardo L. Celaya",
+        "NPI":1548883432,
+        "Location":"CLF North - 13402 N 32nd St Phoenix AZ 85032"
+    },
+    {
         "Name":"Ruby E Fernandez",
         "NPI":1346965381,
         "Location":"CLF West\/Glendale - 7734 N 59th Ave Glendale AZ 85301"
@@ -208,5 +218,10 @@
         "Name":"Yesenia E. Ochoa",
         "NPI":1962981787,
         "Location":"CLF West\/Glendale - 7734 N 59th Ave Glendale AZ 85301"
+    },
+    {
+        "Name":"Yajaira Acosta",
+        "NPI":1811754153,
+        "Location":"CLF North - 13402 N 32nd St Phoenix AZ 85032"
     }
 ]
