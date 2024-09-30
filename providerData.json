@@ -1,28 +1,18 @@
 [
     {
-        "Name":"Clinica La Familia, PC",
+        "Name":"Clinica La Familia, PC", 
         "NPI":1780668921,
-        "Location":null
+        "Location": null
     },
     {
-        "Name":"Aaron Jensen",
-        "NPI":1306099155,
+        "Name":"Alma Navarro ", 
+        "NPI":1104298215,
         "Location":"CLF West\/Glendale - 7734 N 59th Ave Glendale AZ 85301"
     },
     {
         "Name":"Alex Guzman Garcia",
         "NPI":1558635045,
         "Location":"CLF Mesa - 616 E Southern Ave #103,Mesa AZ 85204"
-    },
-    {
-        "Name":"Alma Navarro ",
-        "NPI":1104298215,
-        "Location":"CLF West\/Glendale - 7734 N 59th Ave Glendale AZ 85301"
-    },
-    {
-        "Name":"Amanda Rascon",
-        "NPI":1063157253,
-        "Location":"CLF Laveen - 4250 W Baseline Rd Phoenix, AZ 85339"
     },
     {
         "Name":"Andrew C. White",
