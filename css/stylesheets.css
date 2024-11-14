@@ -25,7 +25,6 @@ body{
 }
 
 button {
-    box-shadow:inset 0px 1px 0px 0px #ffffff;	
 	background-color:transparent;
 	border-radius:6px;
 	border:1px solid black;
@@ -33,75 +32,16 @@ button {
 	cursor:pointer;
 	color:#000000;
 	font-family:Arial;
-	font-size:32px;
-	font-weight:bold;
-	padding:20px 40px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #ffffff;
+	font-size:12px;
+	font-weight:bold;	
+	text-decoration:none;	
 }
 
-
-.checkbox-list{
-    display: flex;
-    flex-direction: column;
-    text-align: start;
-    margin-top: 17px;    
+button:active{
+    position: relative;
+    top: 1px;    
 }
 
-input[type="checkbox"]{
-    margin-right: 10px;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    width: 20px;
-    height: 20px;
-    border: 2px solid #333;
-    border-radius: 4px;
-    background-color: #fff;
-    margin-right: 5px;
-}
-
-
-input[type="checkbox"]:checked {
-    background-color: #007BFF;
-    border: 2px solid #007BFF;
-    color: #fff;
-  }
-
-
-.modal {    
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);    
-}
-
-.close {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 10px;
-    cursor: pointer;
-}
-
-.dropdown-button {
-    display: table-cell;
-    border: 4px solid;
-    text-align: center;
-    padding: 20px;
-    font-family: 'Roboto, sans-serif';
-    font-size: 1.5em;
-    font-weight: bolder;
-    background-color: #F9B572;    
-
-    /* Adjust the width and height as needed to match other headers */
-    width: 150px;
-    height: 50px;
-}
 
 table {
     width: 90%;
@@ -114,16 +54,17 @@ th, td {
     padding: 10px;
 }
 
+.pcpChanger{
+    display: flex;
+    justify-content: space-around;
+}
+
 @media only screen and (max-width: 768px) {
     th, td {
         padding: 5px;
     }
 
-    .dropdown-button {
-        padding: 10px;
-    }
-
-    .modal {
-        padding: 10px;
-    }
+   .pcpChanger{
+    display: grid;
+   }
 }
