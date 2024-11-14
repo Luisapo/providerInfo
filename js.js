@@ -37,7 +37,7 @@ Actualice su medico primario (PCP) A PARTIR DE HOY  proporcionándoles la siguie
 
 POR FAVOR NO OLVIDE PREGUNTAR POR UN NUMERO DE REFERENCIA Y ESCRIBIRLO **si le dicen que no tiene numero de referencia pida el nombre y la inicial del apellido del representante y anote la fecha de la llamada** GRACIAS
 `
-navigator.clipboard.write(message).then(() =>{
+navigator.clipboard.writeText(message).then(() =>{
     alert("Message copied to clipboard");
 }).catch(err => {
     console.error("Could not copy text: ", err);
