@@ -22,8 +22,7 @@ PLEASE DONT FORGET TO ASK FOR YOUR REFERENCE NUMBER AND WRITE IT DOWN. If you ar
 };
 
 const PCPChangeEspanol = (providername, npi, address) => {
-    const message = `
-    De: Clínica La Familia
+    const message = `De: Clínica La Familia
 
 Para tener todo listo para su cita, es necesario que llame a su compañía de seguro y actualice sus datos. Por favor, llame al numero de servicio al cliente que aparece al reverso de su tarjeta de seguro y:
 
@@ -129,7 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (cell.textContent === '7734 N 59th Ave Glendale AZ 85301') {
                         hasWest = true;
                         return; 
-                    } else if(cell.textContent === '4250 W Baseline Rd Phoenix, AZ 85041'){
+                    } else if(cell.textContent === '4250 W Baseline Rd Phoenix, AZ 85339'){
                     hasLaveen = true;
                         return;
                     }else if(cell.textContent === '616 E Southern Ave #103,Mesa AZ 85204') {
