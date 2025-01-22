@@ -81,11 +81,6 @@
         "Location":"7734 N 59th Ave Glendale AZ 85301", "Clinic": "CLF West\/Glendale"
     },
     {
-        "Name":"Francis Rahul Luciano",
-        "NPI":1689058992,
-        "Location":"1315 W Southern Ave Tempe, AZ 85282", "Clinic": "CLF Tempe"
-    },
-    {
         "Name":"Freddy Montenegro",
         "NPI":1306141213,
         "Location":"616 E Southern Ave #103,Mesa AZ 85204", "Clinic": "CLF Mesa"
@@ -119,11 +114,6 @@
         "Name":"Jessica Cuevas",
         "NPI":1700539384,
         "Location":"4250 W Baseline Rd Phoenix, AZ 85339", "Clinic": "CLF Laveen"
-    },
-    {
-        "Name":"Julia Calderon ",
-        "NPI":1780174904,
-        "Location":"13402 N 32nd St Phoenix AZ 85032", "Clinic": "CLF North"
     },
     {
         "Name":"Julia Nieto",
