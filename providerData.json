@@ -59,12 +59,7 @@
         "Name":"Eric Gonzalez",
         "NPI":1033422571,
         "Location":"616 E Southern Ave #103,Mesa AZ 85204", "Clinic": "CLF Mesa"
-    },
-    {
-        "Name":"Erica Carreon ",
-        "NPI":1902682248,
-        "Location":"616 E Southern Ave #103,Mesa AZ 85204", "Clinic": "CLF Mesa"
-    },
+    },    
     {
         "Name":"Erick Torres",
         "NPI":1104457621,
@@ -79,6 +74,11 @@
         "Name":"Flor N Arellano",
         "NPI":1952025470,
         "Location":"7734 N 59th Ave Glendale AZ 85301", "Clinic": "CLF West\/Glendale"
+    },
+    {
+        "Name":"Francis Rahul Luciano",
+        "NPI":1689058992,
+        "Location":"1315 W Southern Ave Tempe, AZ 85282", "Clinic": "CLF Tempe"
     },
     {
         "Name":"Freddy Montenegro",
