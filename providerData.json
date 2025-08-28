@@ -59,7 +59,12 @@
         "Name":"Eric Gonzalez",
         "NPI":1033422571,
         "Location":"616 E Southern Ave #103,Mesa AZ 85204", "Clinic": "CLF Mesa"
-    },    
+    },
+    {
+        "Name":"Erick Torres",
+        "NPI":1104457621,
+        "Location":"7734 N 59th Ave Glendale AZ 85301", "Clinic": "CLF West\/Glendale"
+    },
     {
         "Name":"Esteban Flores",
         "NPI":"1326815317",
