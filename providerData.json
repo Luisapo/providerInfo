@@ -61,8 +61,13 @@
         "Location":"616 E Southern Ave #103,Mesa AZ 85204", "Clinic": "CLF Mesa"
     },    
     {
-        "Name":"Erick Torres",
-        "NPI":1104457621,
+        "Name":"Esteban Flores",
+        "NPI":"1326815317",
+        "Location":"7734 N 59th Ave Glendale AZ 85301", "Clinic": "CLF West\/Glendale"
+    },
+    {
+        "Name":"Flor N Arellano",
+        "NPI":1952025470,
         "Location":"7734 N 59th Ave Glendale AZ 85301", "Clinic": "CLF West\/Glendale"
     },
     {
@@ -159,6 +164,11 @@
         "Name":"Seth Gillespie",
         "NPI":1457723538,
         "Location":"1533 E Willetta St Phoenix AZ 85006", "Clinic": "CLF Downtown"
+    },
+    {
+        "Name":"Uriel Curiel",
+        "NPI":1164291381,
+        "Location":"1315 W Southern Ave Tempe, AZ 85282, AZ Laveen", "Clinic": "CLF Tempe"
     },
     {
         "Name":"Veronica Cristina Diaz Pulido",
