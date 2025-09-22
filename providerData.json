@@ -1,203 +1,242 @@
 [
-    {
-        "Name":"Clinica La Familia, PC", 
-        "NPI":1780668921,
-        "Location":null,
-        "Clinic": null
-    },
-    {
-        "Name":"Alma Navarro ", 
-        "NPI":1104298215,
-        "Location":"7734 N 59th Ave Glendale AZ 85301", "Clinic": "CLF West\/Glendale" 
-    },
-    {
-        "Name":"Alex Guzman Garcia",
-        "NPI":1558635045,
-        "Location":"616 E Southern Ave #103,Mesa AZ 85204", "Clinic": "CLF Mesa"
-    },
-    {
-        "Name":"Andrew C. White",
-        "NPI":1043791247,
-        "Location":"616 E Southern Ave #103,Mesa AZ 85204", "Clinic": "CLF Mesa"
-    },
-    {
-        "Name":"Blair Ball",
-        "NPI":1891297776,
-        "Location":"15235 N Dysart Rd Ste 103, El Mirage, AZ 85335", "Clinic": "CLF El Mirage"
-    },
-    {
-        "Name":"Carlomagno C Briones",
-        "NPI":1487854436,
-        "Location":"7734 N 59th Ave Glendale AZ 85301", "Clinic": "CLF West\/Glendale"
-    },
-    {
-        "Name":"Christine Briones",
-        "NPI":1447275292,
-        "Location":"15235 N Dysart Rd Ste 103, El Mirage, AZ 85335", "Clinic": "CLF El Mirage"
-    },
-    {
-        "Name":"Claudia Romo",
-        "NPI":1487196002,
-        "Location":"1533 E Willetta St Phoenix AZ 85006", "Clinic": "CLF Downtown"
-    },
-    {
-        "Name":"David Rios",
-        "NPI":1033965876,
-        "Location":"4250 W Baseline Rd Laveen, AZ 85339", "Clinic": "CLF Laveen"
-    },
-    {
-        "Name":"Drisde Cruz Martinez",
-        "NPI":1710920426,
-        "Location":"15235 N Dysart Rd Ste 103, El Mirage, AZ 85335", "Clinic": "CLF El Mirage"
-    },
-    {
-        "Name":"Elizabeth Lopez-Murray",
-        "NPI":1255494431,
-        "Location":"7734 N 59th Ave Glendale AZ 85301", "Clinic": "CLF West\/Glendale"
-    },
-    {
-        "Name":"Eric Gonzalez",
-        "NPI":1033422571,
-        "Location":"616 E Southern Ave #103,Mesa AZ 85204", "Clinic": "CLF Mesa"
-    },
-    {
-        "Name":"Erick Torres",
-        "NPI":1104457621,
-        "Location":"7734 N 59th Ave Glendale AZ 85301", "Clinic": "CLF West\/Glendale"
-    },
-    {
-        "Name":"Esteban Flores",
-        "NPI":"1326815317",
-        "Location":"7734 N 59th Ave Glendale AZ 85301", "Clinic": "CLF West\/Glendale"
-    },
-    {
-        "Name":"Flor N Arellano",
-        "NPI":1952025470,
-        "Location":"7734 N 59th Ave Glendale AZ 85301", "Clinic": "CLF West\/Glendale"
-    },
-    {
-        "Name":"Fernando Galaviz ",
-        "NPI":1003532847,
-        "Location":"13402 N 32nd St Phoenix AZ 85032", "Clinic": "CLF North"
-    },
-    {
-        "Name":"Flor N Arellano",
-        "NPI":1952025470,
-        "Location":"7734 N 59th Ave Glendale AZ 85301", "Clinic": "CLF West\/Glendale"
-    },
-    {
-        "Name":"Freddy Montenegro",
-        "NPI":1306141213,
-        "Location":"616 E Southern Ave #103,Mesa AZ 85204", "Clinic": "CLF Mesa"
-    },
-    {
-        "Name":"Gloria Estrada",
-        "NPI":1932171915,
-        "Location":"13402 N 32nd St Phoenix AZ 85032", "Clinic": "CLF North"
-    },
-    {
-        "Name":"Haidee C Waymire",
-        "NPI":1821641184,
-        "Location":"7734 N 59th Ave Glendale AZ 85301", "Clinic": "CLF West\/Glendale"
-    },
-    {
-        "Name":"J Guadalupe Gallo Padilla",
-        "NPI":1447680947,
-        "Location":"1533 E Willetta St Phoenix AZ 85006", "Clinic": "CLF Downtown"
-    },
-    {
-        "Name":"Javier G. Padilla",
-        "NPI":1083383186,
-        "Location":"1533 E Willetta St Phoenix AZ 85006", "Clinic": "CLF Downtown"
-    },
-    {
-        "Name":"Jessica Cuevas",
-        "NPI":1700539384,
-        "Location":"4250 W Baseline Rd Phoenix, AZ Laveen", "Clinic": "CLF Laveen"
-    },
-    {
-        "Name":"Julia Nieto",
-        "NPI":1669920732,
-        "Location":"1315 W Southern Ave Tempe, AZ 85282", "Clinic": "CLF Tempe"
-    },
-    {
-        "Name":"Maria Del Carmen Castillo",
-        "NPI":1922753615,
-        "Location":"616 E Southern Ave #103,Mesa AZ 85204", "Clinic": "CLF Mesa"
-    },
-    {
-        "Name":"Nina A Celaya ",
-        "NPI":1568923456,
-        "Location":"4250 W Baseline Rd Laveen, AZ 85339", "Clinic": "CLF Laveen"
-    },
-    {
-        "Name":"Paola F Beach",
-        "NPI":1336861194,
-        "Location":"15235 N Dysart Rd Ste 103, El Mirage, AZ 85335", "Clinic": "CLF El Mirage"
-    },
-    {
-        "Name":"Ricardo G. Celaya",
-        "NPI":1861476095,
-        "Location":"13402 N 32nd St Phoenix AZ 85032", "Clinic": "CLF North"
-    },
-    {
-        "Name":"Ricardo L. Celaya",
-        "NPI":1548883432,
-        "Location":"13402 N 32nd St Phoenix AZ 85032", "Clinic": "CLF North"
-    },
-    {
-        "Name":"Ruby E Fernandez",
-        "NPI":1346965381,
-        "Location":"7734 N 59th Ave Glendale AZ 85301", "Clinic": "CLF West\/Glendale"
-    },
-    {
-        "Name":"Russell Jackson",
-        "NPI":1699322578,
-        "Location":"301 E Cottonwood Ln Casa Grande AZ 85122", "Clinic": "CLF Casa Grande"
-    },
-    {
-        "Name":"Sam F Shumway",
-        "NPI":1134468267,
-        "Location":"7734 N 59th Ave Glendale AZ 85301", "Clinic": "CLF West\/Glendale"
-    },
-    {
-        "Name":"Sandy Morales ",
-        "NPI":1508377789,
-        "Location":"616 E Southern Ave #103,Mesa AZ 85204", "Clinic": "CLF Mesa"
-    },
-    {
-        "Name":"Seth Gillespie",
-        "NPI":1457723538,
-        "Location":"1533 E Willetta St Phoenix AZ 85006", "Clinic": "CLF Downtown"
-    },
-    {
-        "Name":"Uriel Curiel",
-        "NPI":1164291381,
-        "Location":"1315 W Southern Ave Tempe, AZ 85282, AZ Laveen", "Clinic": "CLF Tempe"
-    },
-    {
-        "Name":"Veronica Cristina Diaz Pulido",
-        "NPI":1588438469,
-        "Location":"4250 W Baseline Rd Phoenix, AZ Laveen", "Clinic": "CLF Laveen"
-    },
-    {
-        "Name":"Walter Rios-Corujo",
-        "NPI":1801902143,
-        "Location":"7734 N 59th Ave Glendale AZ 85301", "Clinic": "CLF West\/Glendale"
-    },
-    {
-        "Name":"Xochitl Landeros",
-        "NPI":1639649767,
-        "Location":"7734 N 59th Ave Glendale AZ 85301", "Clinic": "CLF West\/Glendale"
-    },
-    {
-        "Name":"Yesenia E. Ochoa",
-        "NPI":1962981787,
-        "Location":"301 E Cottonwood Ln Casa Grande AZ 85122", "Clinic": "CLF Casa Grande"
-    },
-    {
-        "Name":"Yajaira Acosta",
-        "NPI":1811754153,
-        "Location":"13402 N 32nd St Phoenix AZ 85032", "Clinic": "CLF North"
-    }
+  {
+    "Name": "Clinica La Familia, PC",
+    "NPI": 1780668921,
+    "Location": null,
+    "Clinic": null
+  },
+  {
+    "Name": "Alma Navarro ",
+    "NPI": 1104298215,
+    "Location": "7734 N 59th Ave Glendale AZ 85301",
+    "Clinic": "CLF West/Glendale"
+  },
+  {
+    "Name": "Alex Guzman Garcia",
+    "NPI": 1558635045,
+    "Location": "616 E Southern Ave #103,Mesa AZ 85204",
+    "Clinic": "CLF Mesa"
+  },
+  {
+    "Name": "Andrew C. White",
+    "NPI": 1043791247,
+    "Location": "616 E Southern Ave #103,Mesa AZ 85204",
+    "Clinic": "CLF Mesa"
+  },
+  {
+    "Name": "Blair Ball",
+    "NPI": 1891297776,
+    "Location": "15235 N Dysart Rd Ste 103, El Mirage, AZ 85335",
+    "Clinic": "CLF El Mirage"
+  },
+  {
+    "Name": "Carlomagno C Briones",
+    "NPI": 1487854436,
+    "Location": "7734 N 59th Ave Glendale AZ 85301",
+    "Clinic": "CLF West/Glendale"
+  },
+  {
+    "Name": "Christine Briones",
+    "NPI": 1447275292,
+    "Location": "15235 N Dysart Rd Ste 103, El Mirage, AZ 85335",
+    "Clinic": "CLF El Mirage"
+  },
+  {
+    "Name": "Claudia Romo",
+    "NPI": 1487196002,
+    "Location": "1533 E Willetta St Phoenix AZ 85006",
+    "Clinic": "CLF Downtown"
+  },
+  {
+    "Name": "David Rios",
+    "NPI": 1033965876,
+    "Location": "4250 W Baseline Rd Laveen, AZ 85339",
+    "Clinic": "CLF Laveen"
+  },
+  {
+    "Name": "Drisde Cruz Martinez",
+    "NPI": 1710920426,
+    "Location": "15235 N Dysart Rd Ste 103, El Mirage, AZ 85335",
+    "Clinic": "CLF El Mirage"
+  },
+  {
+    "Name": "Elizabeth Lopez-Murray",
+    "NPI": 1255494431,
+    "Location": "7734 N 59th Ave Glendale AZ 85301",
+    "Clinic": "CLF West/Glendale"
+  },
+  {
+    "Name": "Eric Gonzalez",
+    "NPI": 1033422571,
+    "Location": "616 E Southern Ave #103,Mesa AZ 85204",
+    "Clinic": "CLF Mesa"
+  },
+  {
+    "Name": "Erick Torres",
+    "NPI": 1104457621,
+    "Location": "7734 N 59th Ave Glendale AZ 85301",
+    "Clinic": "CLF West/Glendale"
+  },
+  {
+    "Name": "Esteban Flores",
+    "NPI": "1326815317",
+    "Location": "7734 N 59th Ave Glendale AZ 85301",
+    "Clinic": "CLF West/Glendale"
+  },
+  {
+    "Name": "Flor N Arellano",
+    "NPI": 1952025470,
+    "Location": "7734 N 59th Ave Glendale AZ 85301",
+    "Clinic": "CLF West/Glendale"
+  },
+  {
+    "Name": "Fernando Galaviz ",
+    "NPI": 1003532847,
+    "Location": "13402 N 32nd St Phoenix AZ 85032",
+    "Clinic": "CLF North"
+  },
+  {
+    "Name": "Flor N Arellano",
+    "NPI": 1952025470,
+    "Location": "7734 N 59th Ave Glendale AZ 85301",
+    "Clinic": "CLF West/Glendale"
+  },
+  {
+    "Name": "Freddy Montenegro",
+    "NPI": 1306141213,
+    "Location": "616 E Southern Ave #103,Mesa AZ 85204",
+    "Clinic": "CLF Mesa"
+  },
+  {
+    "Name": "Gloria Estrada",
+    "NPI": 1932171915,
+    "Location": "13402 N 32nd St Phoenix AZ 85032",
+    "Clinic": "CLF North"
+  },
+  {
+    "Name": "Haidee C Waymire",
+    "NPI": 1821641184,
+    "Location": "7734 N 59th Ave Glendale AZ 85301",
+    "Clinic": "CLF West/Glendale"
+  },
+  {
+    "Name": "J Guadalupe Gallo Padilla",
+    "NPI": 1447680947,
+    "Location": "1533 E Willetta St Phoenix AZ 85006",
+    "Clinic": "CLF Downtown"
+  },
+  {
+    "Name": "Javier G. Padilla",
+    "NPI": 1083383186,
+    "Location": "1533 E Willetta St Phoenix AZ 85006",
+    "Clinic": "CLF Downtown"
+  },
+  {
+    "Name": "Jessica Cuevas",
+    "NPI": 1700539384,
+    "Location": "4250 W Baseline Rd Laveen, AZ 85339",
+    "Clinic": "CLF Laveen"
+  },
+  {
+    "Name": "Julia Nieto",
+    "NPI": 1669920732,
+    "Location": "1315 W Southern Ave Tempe, AZ 85282",
+    "Clinic": "CLF Tempe"
+  },
+  {
+    "Name": "Maria Del Carmen Castillo",
+    "NPI": 1922753615,
+    "Location": "616 E Southern Ave #103,Mesa AZ 85204",
+    "Clinic": "CLF Mesa"
+  },
+  {
+    "Name": "Nina A Celaya ",
+    "NPI": 1568923456,
+    "Location": "4250 W Baseline Rd Laveen, AZ 85339",
+    "Clinic": "CLF Laveen"
+  },
+  {
+    "Name": "Paola F Beach",
+    "NPI": 1336861194,
+    "Location": "15235 N Dysart Rd Ste 103, El Mirage, AZ 85335",
+    "Clinic": "CLF El Mirage"
+  },
+  {
+    "Name": "Ricardo G. Celaya",
+    "NPI": 1861476095,
+    "Location": "13402 N 32nd St Phoenix AZ 85032",
+    "Clinic": "CLF North"
+  },
+  {
+    "Name": "Ricardo L. Celaya",
+    "NPI": 1548883432,
+    "Location": "13402 N 32nd St Phoenix AZ 85032",
+    "Clinic": "CLF North"
+  },
+  {
+    "Name": "Ruby E Fernandez",
+    "NPI": 1346965381,
+    "Location": "7734 N 59th Ave Glendale AZ 85301",
+    "Clinic": "CLF West/Glendale"
+  },
+  {
+    "Name": "Russell Jackson",
+    "NPI": 1699322578,
+    "Location": "301 E Cottonwood Ln Casa Grande AZ 85122",
+    "Clinic": "CLF Casa Grande"
+  },
+  {
+    "Name": "Sam F Shumway",
+    "NPI": 1134468267,
+    "Location": "7734 N 59th Ave Glendale AZ 85301",
+    "Clinic": "CLF West/Glendale"
+  },
+  {
+    "Name": "Sandy Morales ",
+    "NPI": 1508377789,
+    "Location": "616 E Southern Ave #103,Mesa AZ 85204",
+    "Clinic": "CLF Mesa"
+  },
+  {
+    "Name": "Seth Gillespie",
+    "NPI": 1457723538,
+    "Location": "1533 E Willetta St Phoenix AZ 85006",
+    "Clinic": "CLF Downtown"
+  },
+  {
+    "Name": "Uriel Curiel",
+    "NPI": 1164291381,
+    "Location": "616 E Southern Ave #103,Mesa AZ 85204",
+    "Clinic": "CLF Mesa"
+  },
+  {
+    "Name": "Veronica Cristina Diaz Pulido",
+    "NPI": 1588438469,
+    "Location": "4250 W Baseline Rd Laveen, AZ 85339",
+    "Clinic": "CLF Laveen"
+  },
+  {
+    "Name": "Walter Rios-Corujo",
+    "NPI": 1801902143,
+    "Location": "7734 N 59th Ave Glendale AZ 85301",
+    "Clinic": "CLF West/Glendale"
+  },
+  {
+    "Name": "Xochitl Landeros",
+    "NPI": 1639649767,
+    "Location": "7734 N 59th Ave Glendale AZ 85301",
+    "Clinic": "CLF West/Glendale"
+  },
+  {
+    "Name": "Yesenia E. Ochoa",
+    "NPI": 1962981787,
+    "Location": "301 E Cottonwood Ln Casa Grande AZ 85122",
+    "Clinic": "CLF Casa Grande"
+  },
+  {
+    "Name": "Yajaira Acosta",
+    "NPI": 1811754153,
+    "Location": "13402 N 32nd St Phoenix AZ 85032",
+    "Clinic": "CLF North"
+  }
 ]
